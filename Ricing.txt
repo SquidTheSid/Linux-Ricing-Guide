@@ -1,0 +1,105 @@
+How to Customize your Linux Desktop (KDE Edition)
+
+ In the past few months, I've received many questions on how I customize my
+ desktop, from the application icons to the background wallpaper I use. So I
+ thought I'd walk you through my process step by step.  If you've not yet setup
+ your Linux desktop, I'd highly recommend watching my Gamer's Guide video for a
+ full tutorial, as that covers the absolute essentials.
+
+Before I get too deep into customization, I need to define some terminology. A
+Linux desktop environment, or DE, is the graphical user interface that you
+interact with. Unlike Windows, Linux separates its desktop environments from
+the core operating system, so you can go ahead and select a DE from the dozens
+available, or rock a 90s styled terminal interface. For this video, I'll be
+using the KDE desktop environment, since it's well supported, has sane
+defaults, and is easy to customize. Furthermore, I'm be using the manjaro linux
+for this video. So if you use a different distribution, be sure to refer to it
+documentation if you have any problems. That said, I won't be using the
+terminal, so this shouldn't be much of an issue.
+
+The next concept you need to know is GUI or widget toolkits. In short, these
+are software libraries that control the look and feel of the applications you
+use. The two main toolkits are QT and GTK, used by KDE and GNOME applications
+respectively. Most people will have programs that use both of these libraries,
+so you need to be familiar with them to keep desktop theming consistent.  
+
+Now let's jump into to ricing. For the most part, KDE can be customized
+entirely through its inbuilt settings menu. Just hit the super/windows key and
+type in system settings. From here, go to the appearance submenu. Click on the
+global themes tab and select the "Get new Global Themes" button. This will pull
+up a list of available themes from KDE's website. I personally use Nordic on my
+manjaro desktop, but for this video, I'll be using a virtual machine to setup
+We10XOS, which marries Windows 10's user experience with Google's modern
+material design. But feel free to experiment and select whichever theme you
+like.
+
+After you've finished downloading We10XOS, make sure you have it selected and
+click the apply button. Do note that checking "use desktop layout from theme"
+toggle will override your current desktop layout. Because we're mimicking the
+look and feel of Windows 10, we want to do this for a more familiar layout, but
+it's not always desireable.  
+
+Do note that the global theme  only applies to your KDE desktop and QT
+applications. To get parity in GTK programs like pamac or GIMP, you'll need to
+go to the application style tab and click on the "Configure GTK Application
+Style" button. To match We10XOS's appearance,  I'll be using the redstone
+theme, but you can use whatever you find attractive. Click on the "Download New
+GTK Application Styles" and select the GTK3 option. In the search bar, look for
+redstone. Once you've finished downloading it, you need to select it in the
+GTK2/3 dropdown menus and click apply. Then you need to go into the Window
+Decorations submenu and make sure that We10XOS is selected. If not, click on it
+then apply the changes.
+
+Following that, go into colors tab and select Win10XOSConcept to match your
+global theme, and click apply when ready.  Similarly, if you're using Nordic or
+another theme, make sure the currently selected color scheme matches that. 
+
+Next up, in the icons menu, you can select either of the We10X icon presets and
+then click apply, depending on your preferences. Alternatively, if you're
+trying to match my Manjaro desktop, you need to download the Zafiro icon pack.
+Click on "Get New Icons" button and search for it there. Once Zafiro's done
+downloading, select the variant you want to use and click apply. I personally
+use the blue icons, but feel free to experiment. 
+
+
+Finally, we can go into the cursors menu and select the We10XOS Cursors. To
+match my manjaro cursor, you need to click on the "Get New Cursors" button and
+search for Volantes. Once they're done downloading, click apply to set your
+mouse cursor. You will need to logout or restart your computer for all of the
+changes to apply, otherwise, your old cursor might appear in between
+applications. 
+
+Now, if you want to have a macOS styled dock in addition to a taskbar, similar
+to what I have, go to your software center and install the latte dock. You can
+then right click on the dock, and go into its settings menu to adjust the
+positions or change animations. To move your taskbar, right click on it and
+click on the "edit panel button", then navigate to its rightmost edge and click
+on the "configure panel button". You can now adjust the height of the panel or
+move it to a different screen edge using the appropriate buttons. 
+
+At this point, you've got a basic desktop theme setup. Feel free to mess around
+with it and add widgets to your taskbar. For We10XOS, I've replaced
+the default start menu with the tiled menu widget I downloaded, but I honestly
+prefer KDE's simple menu. To change your wallpaper, right click on the desktop
+and select "customize desktop". You can then select the image you want to use.
+We10XOS provides a default wallaper for its theme, so I'll be using that. 
+
+Before I close off this video, I want to mention a fantastic community for
+ricing your desktop. The unixporn subreddit is a great for getting help
+or for showing off your desktop environment. There are some truly breathtaking
+screenshots there, so check it out when you have the time.
+
+Thank you very much for watching. I know I normally don't do Linux content very
+often, but I needed to get my mind off of the Borderlands 3 video and write
+something actually enjoyable. If you want to see me do a followup video on
+customizing GNOME, let me know in the comments section. That said, it's not be
+as straightforward, as it involves desktop extensions and the terminal. 
+
+In the near future, there will be a video critique of Doom Eternal now that
+Denuvo anti-cheat no longer bricks the game for me. If you'd like to keep up to
+date with channel news, you can follow me on twitter @SquidTheSid1 or join the
+Squidcord discord server. Finally, if you'd like to support the channel in
+these troubling times and can afford to do so, you can contribute to my patreon
+page at patreon.com/squidthesid.  
+
+As always, stay frosty.
